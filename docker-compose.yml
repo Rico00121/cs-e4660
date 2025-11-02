@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  neuronex:
+    image: emqx/neuronex:latest
+    container_name: neuronex
+    ports:
+      - "8085:8085"  # Web admin UI
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+    restart: unless-stopped
+    networks:
+      - iot_network
+
+  nanomq:
+    image: emqx/nanomq:latest
+    container_name: nanomq
+    ports:
+      - "1883:1883"  # MQTT port
+      - "8083:8083"  # MQTT over WebSocket
+      - "8883:8883"  # MQTT over SSL/TLS
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+    restart: unless-stopped
+    networks:
+      - iot_network
+
+networks:
+  iot_network:
+    driver: bridge
