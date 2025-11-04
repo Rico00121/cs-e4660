@@ -11,6 +11,10 @@ services:
       options:
         max-size: "100m"
     restart: unless-stopped
+    volumes:
+      - neuronex-logs:/opt/neuronex/software/ekuiper/log
+      - ./neuronex-config/data:/opt/neuronex/data
+      - ./neuronex-config/etc:/opt/neuronex/etc
     networks:
       - iot_network
 
@@ -29,6 +33,43 @@ services:
     networks:
       - iot_network
 
+  loki:
+    container_name: iot_loki
+    image: grafana/loki:latest
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - iot_network
+
+  alloy:
+    container_name: alloy
+    image: grafana/alloy:latest
+    ports:
+      - "12345:12345"
+    volumes:
+      - ./config.alloy:/etc/alloy/config.alloy
+      - neuronex-logs:/neuronex-logs
+    command: run --server.http.listen-addr=0.0.0.0:12345 --storage.path=/var/lib/alloy/data /etc/alloy/config.alloy
+    networks:
+      - iot_network
+
+  grafana:
+    container_name: iot_grafana
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - iot_network
+
 networks:
   iot_network:
     driver: bridge
+
+volumes:
+  grafana-storage:
+  neuronex-logs:
