@@ -1,0 +1,1433 @@
+2025-11-05 16:13:12,355 [INFO] ✓ Connected to localhost:1883
+2025-11-05 16:13:12,355 [INFO] ✓ Subscribed to topic: device/status
+
+2025-11-05 16:13:41,188 [INFO] [16:13:41] device/status
+2025-11-05 16:13:41,213 [INFO] {
+  "compressor_current_a": 5.48,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.46,
+  "timestamp": 1762352021
+}
+2025-11-05 16:13:46,206 [INFO] [16:13:46] device/status
+2025-11-05 16:13:46,206 [INFO] {
+  "compressor_current_a": 5.29,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.63,
+  "timestamp": 1762352026
+}
+2025-11-05 16:13:51,181 [INFO] [16:13:51] device/status
+2025-11-05 16:13:51,182 [INFO] {
+  "compressor_current_a": 4.93,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.59,
+  "timestamp": 1762352031
+}
+2025-11-05 16:13:56,179 [INFO] [16:13:56] device/status
+2025-11-05 16:13:56,180 [INFO] {
+  "compressor_current_a": 5.11,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.58,
+  "timestamp": 1762352036
+}
+2025-11-05 16:14:01,194 [INFO] [16:14:01] device/status
+2025-11-05 16:14:01,194 [INFO] {
+  "compressor_current_a": 5.3,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.77,
+  "timestamp": 1762352041
+}
+2025-11-05 16:14:06,173 [INFO] [16:14:06] device/status
+2025-11-05 16:14:06,173 [INFO] {
+  "compressor_current_a": 5.06,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.51,
+  "timestamp": 1762352046
+}
+2025-11-05 16:14:11,174 [INFO] [16:14:11] device/status
+2025-11-05 16:14:11,175 [INFO] {
+  "compressor_current_a": 5.15,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.77,
+  "timestamp": 1762352051
+}
+2025-11-05 16:14:16,177 [INFO] [16:14:16] device/status
+2025-11-05 16:14:16,178 [INFO] {
+  "compressor_current_a": 5.5,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.81,
+  "timestamp": 1762352056
+}
+2025-11-05 16:14:21,172 [INFO] [16:14:21] device/status
+2025-11-05 16:14:21,172 [INFO] {
+  "compressor_current_a": 5.18,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.53,
+  "timestamp": 1762352061
+}
+2025-11-05 16:14:26,179 [INFO] [16:14:26] device/status
+2025-11-05 16:14:26,179 [INFO] {
+  "compressor_current_a": 5.29,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.78,
+  "timestamp": 1762352066
+}
+2025-11-05 16:14:31,175 [INFO] [16:14:31] device/status
+2025-11-05 16:14:31,175 [INFO] {
+  "compressor_current_a": 5.15,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.57,
+  "timestamp": 1762352071
+}
+2025-11-05 16:14:36,226 [INFO] [16:14:36] device/status
+2025-11-05 16:14:36,227 [INFO] {
+  "compressor_current_a": 5.2,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.72,
+  "timestamp": 1762352076
+}
+2025-11-05 16:14:41,180 [INFO] [16:14:41] device/status
+2025-11-05 16:14:41,181 [INFO] {
+  "compressor_current_a": 5.24,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.31,
+  "timestamp": 1762352081
+}
+2025-11-05 16:14:46,279 [INFO] [16:14:46] device/status
+2025-11-05 16:14:46,279 [INFO] {
+  "compressor_current_a": 4.95,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.96,
+  "timestamp": 1762352086
+}
+2025-11-05 16:14:51,187 [INFO] [16:14:51] device/status
+2025-11-05 16:14:51,187 [INFO] {
+  "compressor_current_a": 5.08,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.67,
+  "timestamp": 1762352091
+}
+2025-11-05 16:14:56,175 [INFO] [16:14:56] device/status
+2025-11-05 16:14:56,175 [INFO] {
+  "compressor_current_a": 5.24,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.97,
+  "timestamp": 1762352096
+}
+2025-11-05 16:15:01,173 [INFO] [16:15:01] device/status
+2025-11-05 16:15:01,174 [INFO] {
+  "compressor_current_a": 5.49,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.66,
+  "timestamp": 1762352101
+}
+2025-11-05 16:15:06,185 [INFO] [16:15:06] device/status
+2025-11-05 16:15:06,185 [INFO] {
+  "compressor_current_a": 5.09,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.57,
+  "timestamp": 1762352106
+}
+2025-11-05 16:15:11,180 [INFO] [16:15:11] device/status
+2025-11-05 16:15:11,180 [INFO] {
+  "compressor_current_a": 5.43,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.81,
+  "timestamp": 1762352111
+}
+2025-11-05 16:15:16,176 [INFO] [16:15:16] device/status
+2025-11-05 16:15:16,177 [INFO] {
+  "compressor_current_a": 5.31,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.55,
+  "timestamp": 1762352116
+}
+2025-11-05 16:15:21,193 [INFO] [16:15:21] device/status
+2025-11-05 16:15:21,193 [INFO] {
+  "compressor_current_a": 5.07,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.36,
+  "timestamp": 1762352121
+}
+2025-11-05 16:15:26,188 [INFO] [16:15:26] device/status
+2025-11-05 16:15:26,189 [INFO] {
+  "compressor_current_a": 5.57,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.25,
+  "timestamp": 1762352126
+}
+2025-11-05 16:15:31,192 [INFO] [16:15:31] device/status
+2025-11-05 16:15:31,193 [INFO] {
+  "compressor_current_a": 5.44,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.6,
+  "timestamp": 1762352131
+}
+2025-11-05 16:15:36,182 [INFO] [16:15:36] device/status
+2025-11-05 16:15:36,182 [INFO] {
+  "compressor_current_a": 5.09,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.03,
+  "timestamp": 1762352136
+}
+2025-11-05 16:15:41,177 [INFO] [16:15:41] device/status
+2025-11-05 16:15:41,178 [INFO] {
+  "compressor_current_a": 5.4,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.8,
+  "timestamp": 1762352141
+}
+2025-11-05 16:15:46,175 [INFO] [16:15:46] device/status
+2025-11-05 16:15:46,175 [INFO] {
+  "compressor_current_a": 4.93,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.37,
+  "timestamp": 1762352146
+}
+2025-11-05 16:15:51,178 [INFO] [16:15:51] device/status
+2025-11-05 16:15:51,179 [INFO] {
+  "compressor_current_a": 5.2,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.35,
+  "timestamp": 1762352151
+}
+2025-11-05 16:15:56,196 [INFO] [16:15:56] device/status
+2025-11-05 16:15:56,196 [INFO] {
+  "compressor_current_a": 5.56,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.43,
+  "timestamp": 1762352156
+}
+2025-11-05 16:16:01,179 [INFO] [16:16:01] device/status
+2025-11-05 16:16:01,180 [INFO] {
+  "compressor_current_a": 4.83,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.61,
+  "timestamp": 1762352161
+}
+2025-11-05 16:16:06,224 [INFO] [16:16:06] device/status
+2025-11-05 16:16:06,225 [INFO] {
+  "compressor_current_a": 5.14,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.67,
+  "timestamp": 1762352166
+}
+2025-11-05 16:16:11,213 [INFO] [16:16:11] device/status
+2025-11-05 16:16:11,214 [INFO] {
+  "compressor_current_a": 5.07,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.65,
+  "timestamp": 1762352171
+}
+2025-11-05 16:16:16,218 [INFO] [16:16:16] device/status
+2025-11-05 16:16:16,218 [INFO] {
+  "compressor_current_a": 5.46,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.04,
+  "timestamp": 1762352176
+}
+2025-11-05 16:16:21,187 [INFO] [16:16:21] device/status
+2025-11-05 16:16:21,188 [INFO] {
+  "compressor_current_a": 5.27,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.4,
+  "timestamp": 1762352181
+}
+2025-11-05 16:16:26,179 [INFO] [16:16:26] device/status
+2025-11-05 16:16:26,179 [INFO] {
+  "compressor_current_a": 5.45,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.02,
+  "timestamp": 1762352186
+}
+2025-11-05 16:16:31,176 [INFO] [16:16:31] device/status
+2025-11-05 16:16:31,176 [INFO] {
+  "compressor_current_a": 5.6,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.59,
+  "timestamp": 1762352191
+}
+2025-11-05 16:16:36,178 [INFO] [16:16:36] device/status
+2025-11-05 16:16:36,179 [INFO] {
+  "compressor_current_a": 4.95,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.73,
+  "timestamp": 1762352196
+}
+2025-11-05 16:16:41,177 [INFO] [16:16:41] device/status
+2025-11-05 16:16:41,178 [INFO] {
+  "compressor_current_a": 5.47,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.26,
+  "timestamp": 1762352201
+}
+2025-11-05 16:16:46,203 [INFO] [16:16:46] device/status
+2025-11-05 16:16:46,203 [INFO] {
+  "compressor_current_a": 5.28,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.88,
+  "timestamp": 1762352206
+}
+2025-11-05 16:16:51,185 [INFO] [16:16:51] device/status
+2025-11-05 16:16:51,186 [INFO] {
+  "compressor_current_a": 5.18,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.61,
+  "timestamp": 1762352211
+}
+2025-11-05 16:16:56,218 [INFO] [16:16:56] device/status
+2025-11-05 16:16:56,219 [INFO] {
+  "compressor_current_a": 4.89,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.25,
+  "timestamp": 1762352216
+}
+2025-11-05 16:17:01,179 [INFO] [16:17:01] device/status
+2025-11-05 16:17:01,180 [INFO] {
+  "compressor_current_a": 4.88,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.51,
+  "timestamp": 1762352221
+}
+2025-11-05 16:17:06,189 [INFO] [16:17:06] device/status
+2025-11-05 16:17:06,190 [INFO] {
+  "compressor_current_a": 5.04,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.69,
+  "timestamp": 1762352226
+}
+2025-11-05 16:17:11,226 [INFO] [16:17:11] device/status
+2025-11-05 16:17:11,228 [INFO] {
+  "compressor_current_a": 4.9,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.63,
+  "timestamp": 1762352231
+}
+2025-11-05 16:17:16,178 [INFO] [16:17:16] device/status
+2025-11-05 16:17:16,178 [INFO] {
+  "compressor_current_a": 5.15,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.56,
+  "timestamp": 1762352236
+}
+2025-11-05 16:17:21,178 [INFO] [16:17:21] device/status
+2025-11-05 16:17:21,178 [INFO] {
+  "compressor_current_a": 4.88,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.61,
+  "timestamp": 1762352241
+}
+2025-11-05 16:17:26,227 [INFO] [16:17:26] device/status
+2025-11-05 16:17:26,228 [INFO] {
+  "compressor_current_a": 5.3,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.97,
+  "timestamp": 1762352246
+}
+2025-11-05 16:17:31,179 [INFO] [16:17:31] device/status
+2025-11-05 16:17:31,179 [INFO] {
+  "compressor_current_a": 5.41,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5,
+  "timestamp": 1762352251
+}
+2025-11-05 16:17:36,239 [INFO] [16:17:36] device/status
+2025-11-05 16:17:36,240 [INFO] {
+  "compressor_current_a": 4.95,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.45,
+  "timestamp": 1762352256
+}
+2025-11-05 16:17:41,176 [INFO] [16:17:41] device/status
+2025-11-05 16:17:41,176 [INFO] {
+  "compressor_current_a": 5.22,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.18,
+  "timestamp": 1762352261
+}
+2025-11-05 16:17:46,176 [INFO] [16:17:46] device/status
+2025-11-05 16:17:46,176 [INFO] {
+  "compressor_current_a": 5.41,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.44,
+  "timestamp": 1762352266
+}
+2025-11-05 16:17:51,196 [INFO] [16:17:51] device/status
+2025-11-05 16:17:51,198 [INFO] {
+  "compressor_current_a": 4.86,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.69,
+  "timestamp": 1762352271
+}
+2025-11-05 16:17:56,184 [INFO] [16:17:56] device/status
+2025-11-05 16:17:56,185 [INFO] {
+  "compressor_current_a": 5.02,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.55,
+  "timestamp": 1762352276
+}
+2025-11-05 16:18:01,215 [INFO] [16:18:01] device/status
+2025-11-05 16:18:01,216 [INFO] {
+  "compressor_current_a": 5.2,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.36,
+  "timestamp": 1762352281
+}
+2025-11-05 16:18:06,190 [INFO] [16:18:06] device/status
+2025-11-05 16:18:06,195 [INFO] {
+  "compressor_current_a": 5.39,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.63,
+  "timestamp": 1762352286
+}
+2025-11-05 16:18:11,206 [INFO] [16:18:11] device/status
+2025-11-05 16:18:11,210 [INFO] {
+  "compressor_current_a": 5.02,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.75,
+  "timestamp": 1762352291
+}
+2025-11-05 16:18:16,181 [INFO] [16:18:16] device/status
+2025-11-05 16:18:16,183 [INFO] {
+  "compressor_current_a": 4.98,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.53,
+  "timestamp": 1762352296
+}
+2025-11-05 16:18:21,190 [INFO] [16:18:21] device/status
+2025-11-05 16:18:21,191 [INFO] {
+  "compressor_current_a": 5.06,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.31,
+  "timestamp": 1762352301
+}
+2025-11-05 16:18:26,171 [INFO] [16:18:26] device/status
+2025-11-05 16:18:26,171 [INFO] {
+  "compressor_current_a": 4.89,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.6,
+  "timestamp": 1762352306
+}
+2025-11-05 16:18:31,230 [INFO] [16:18:31] device/status
+2025-11-05 16:18:31,238 [INFO] {
+  "compressor_current_a": 5.49,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.08,
+  "timestamp": 1762352311
+}
+2025-11-05 16:18:36,198 [INFO] [16:18:36] device/status
+2025-11-05 16:18:36,199 [INFO] {
+  "compressor_current_a": 5.22,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.76,
+  "timestamp": 1762352316
+}
+2025-11-05 16:18:41,192 [INFO] [16:18:41] device/status
+2025-11-05 16:18:41,192 [INFO] {
+  "compressor_current_a": 4.97,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.98,
+  "timestamp": 1762352321
+}
+2025-11-05 16:18:46,178 [INFO] [16:18:46] device/status
+2025-11-05 16:18:46,179 [INFO] {
+  "compressor_current_a": 5.57,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.82,
+  "timestamp": 1762352326
+}
+2025-11-05 16:18:51,906 [INFO] [16:18:51] device/status
+2025-11-05 16:18:51,910 [INFO] {
+  "compressor_current_a": 5.3,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.78,
+  "timestamp": 1762352331
+}
+2025-11-05 16:21:42,014 [INFO] [16:21:42] device/status
+2025-11-05 16:21:42,014 [INFO] {
+  "compressor_current_a": 5.37,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.14,
+  "timestamp": 1762352502
+}
+2025-11-05 16:21:47,064 [INFO] [16:21:47] device/status
+2025-11-05 16:21:47,066 [INFO] {
+  "compressor_current_a": 5.03,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.89,
+  "timestamp": 1762352507
+}
+2025-11-05 16:21:52,244 [INFO] [16:21:52] device/status
+2025-11-05 16:21:52,244 [INFO] {
+  "compressor_current_a": 4.84,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.92,
+  "timestamp": 1762352512
+}
+2025-11-05 16:21:56,994 [INFO] [16:21:56] device/status
+2025-11-05 16:21:56,994 [INFO] {
+  "compressor_current_a": 5.16,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.09,
+  "timestamp": 1762352516
+}
+2025-11-05 16:22:02,043 [INFO] [16:22:02] device/status
+2025-11-05 16:22:02,043 [INFO] {
+  "compressor_current_a": 5.08,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.95,
+  "timestamp": 1762352522
+}
+2025-11-05 16:22:06,985 [INFO] [16:22:06] device/status
+2025-11-05 16:22:06,985 [INFO] {
+  "compressor_current_a": 5.39,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.79,
+  "timestamp": 1762352526
+}
+2025-11-05 16:22:11,986 [INFO] [16:22:11] device/status
+2025-11-05 16:22:11,986 [INFO] {
+  "compressor_current_a": 4.8,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.91,
+  "timestamp": 1762352531
+}
+2025-11-05 16:22:17,031 [INFO] [16:22:17] device/status
+2025-11-05 16:22:17,031 [INFO] {
+  "compressor_current_a": 4.86,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.59,
+  "timestamp": 1762352537
+}
+2025-11-05 16:22:21,981 [INFO] [16:22:21] device/status
+2025-11-05 16:22:21,981 [INFO] {
+  "compressor_current_a": 5.05,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.58,
+  "timestamp": 1762352541
+}
+2025-11-05 16:22:26,986 [INFO] [16:22:26] device/status
+2025-11-05 16:22:26,986 [INFO] {
+  "compressor_current_a": 5.45,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.57,
+  "timestamp": 1762352546
+}
+2025-11-05 16:22:31,987 [INFO] [16:22:31] device/status
+2025-11-05 16:22:31,988 [INFO] {
+  "compressor_current_a": 5.55,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5,
+  "timestamp": 1762352551
+}
+2025-11-05 16:22:37,033 [INFO] [16:22:37] device/status
+2025-11-05 16:22:37,034 [INFO] {
+  "compressor_current_a": 5.55,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.62,
+  "timestamp": 1762352556
+}
+2025-11-05 16:22:41,980 [INFO] [16:22:41] device/status
+2025-11-05 16:22:41,980 [INFO] {
+  "compressor_current_a": 5.29,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.27,
+  "timestamp": 1762352561
+}
+2025-11-05 16:22:46,995 [INFO] [16:22:46] device/status
+2025-11-05 16:22:46,996 [INFO] {
+  "compressor_current_a": 4.83,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.85,
+  "timestamp": 1762352566
+}
+2025-11-05 16:22:51,985 [INFO] [16:22:51] device/status
+2025-11-05 16:22:51,985 [INFO] {
+  "compressor_current_a": 5.14,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.65,
+  "timestamp": 1762352571
+}
+2025-11-05 16:22:57,076 [INFO] [16:22:57] device/status
+2025-11-05 16:22:57,079 [INFO] {
+  "compressor_current_a": 5.11,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.03,
+  "timestamp": 1762352577
+}
+2025-11-05 16:23:01,984 [INFO] [16:23:01] device/status
+2025-11-05 16:23:01,984 [INFO] {
+  "compressor_current_a": 5.48,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.59,
+  "timestamp": 1762352581
+}
+2025-11-05 16:23:06,982 [INFO] [16:23:06] device/status
+2025-11-05 16:23:06,983 [INFO] {
+  "compressor_current_a": 4.87,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.38,
+  "timestamp": 1762352586
+}
+2025-11-05 16:23:11,981 [INFO] [16:23:11] device/status
+2025-11-05 16:23:11,982 [INFO] {
+  "compressor_current_a": 5.13,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.62,
+  "timestamp": 1762352591
+}
+2025-11-05 16:23:17,018 [INFO] [16:23:17] device/status
+2025-11-05 16:23:17,018 [INFO] {
+  "compressor_current_a": 5.47,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.92,
+  "timestamp": 1762352597
+}
+2025-11-05 16:23:22,010 [INFO] [16:23:22] device/status
+2025-11-05 16:23:22,011 [INFO] {
+  "compressor_current_a": 5.56,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.17,
+  "timestamp": 1762352602
+}
+2025-11-05 16:23:26,985 [INFO] [16:23:26] device/status
+2025-11-05 16:23:26,985 [INFO] {
+  "compressor_current_a": 5.4,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.79,
+  "timestamp": 1762352606
+}
+2025-11-05 16:23:31,984 [INFO] [16:23:31] device/status
+2025-11-05 16:23:31,984 [INFO] {
+  "compressor_current_a": 5.28,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.19,
+  "timestamp": 1762352611
+}
+2025-11-05 16:23:36,982 [INFO] [16:23:36] device/status
+2025-11-05 16:23:36,983 [INFO] {
+  "compressor_current_a": 4.9,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.45,
+  "timestamp": 1762352616
+}
+2025-11-05 16:23:41,982 [INFO] [16:23:41] device/status
+2025-11-05 16:23:41,982 [INFO] {
+  "compressor_current_a": 5.06,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.77,
+  "timestamp": 1762352621
+}
+2025-11-05 16:23:47,006 [INFO] [16:23:47] device/status
+2025-11-05 16:23:47,006 [INFO] {
+  "compressor_current_a": 5.27,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.96,
+  "timestamp": 1762352627
+}
+2025-11-05 16:23:51,984 [INFO] [16:23:51] device/status
+2025-11-05 16:23:51,984 [INFO] {
+  "compressor_current_a": 5.48,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.18,
+  "timestamp": 1762352631
+}
+2025-11-05 16:23:56,994 [INFO] [16:23:56] device/status
+2025-11-05 16:23:56,994 [INFO] {
+  "compressor_current_a": 5.49,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.95,
+  "timestamp": 1762352636
+}
+2025-11-05 16:24:01,988 [INFO] [16:24:01] device/status
+2025-11-05 16:24:01,990 [INFO] {
+  "compressor_current_a": 5.4,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.52,
+  "timestamp": 1762352641
+}
+2025-11-05 16:24:07,055 [INFO] [16:24:07] device/status
+2025-11-05 16:24:07,055 [INFO] {
+  "compressor_current_a": 5.09,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.48,
+  "timestamp": 1762352647
+}
+2025-11-05 16:24:11,984 [INFO] [16:24:11] device/status
+2025-11-05 16:24:11,985 [INFO] {
+  "compressor_current_a": 5.09,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.16,
+  "timestamp": 1762352651
+}
+2025-11-05 16:24:16,986 [INFO] [16:24:16] device/status
+2025-11-05 16:24:16,987 [INFO] {
+  "compressor_current_a": 4.96,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.78,
+  "timestamp": 1762352656
+}
+2025-11-05 16:24:21,985 [INFO] [16:24:21] device/status
+2025-11-05 16:24:21,985 [INFO] {
+  "compressor_current_a": 5.08,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.54,
+  "timestamp": 1762352661
+}
+2025-11-05 16:24:27,018 [INFO] [16:24:27] device/status
+2025-11-05 16:24:27,019 [INFO] {
+  "compressor_current_a": 5.17,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.87,
+  "timestamp": 1762352667
+}
+2025-11-05 16:24:31,986 [INFO] [16:24:31] device/status
+2025-11-05 16:24:31,986 [INFO] {
+  "compressor_current_a": 4.85,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.67,
+  "timestamp": 1762352671
+}
+2025-11-05 16:24:36,981 [INFO] [16:24:36] device/status
+2025-11-05 16:24:36,981 [INFO] {
+  "compressor_current_a": 5.49,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.49,
+  "timestamp": 1762352676
+}
+2025-11-05 16:24:41,979 [INFO] [16:24:41] device/status
+2025-11-05 16:24:41,979 [INFO] {
+  "compressor_current_a": 4.86,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.33,
+  "timestamp": 1762352681
+}
+2025-11-05 16:24:46,985 [INFO] [16:24:46] device/status
+2025-11-05 16:24:46,985 [INFO] {
+  "compressor_current_a": 5.59,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.8,
+  "timestamp": 1762352686
+}
+2025-11-05 16:24:52,000 [INFO] [16:24:52] device/status
+2025-11-05 16:24:52,000 [INFO] {
+  "compressor_current_a": 5.48,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.16,
+  "timestamp": 1762352691
+}
+2025-11-05 16:24:57,005 [INFO] [16:24:57] device/status
+2025-11-05 16:24:57,005 [INFO] {
+  "compressor_current_a": 4.94,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.37,
+  "timestamp": 1762352696
+}
+2025-11-05 16:25:01,984 [INFO] [16:25:01] device/status
+2025-11-05 16:25:01,984 [INFO] {
+  "compressor_current_a": 5.37,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.26,
+  "timestamp": 1762352701
+}
+2025-11-05 16:25:06,984 [INFO] [16:25:06] device/status
+2025-11-05 16:25:06,984 [INFO] {
+  "compressor_current_a": 5.32,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.06,
+  "timestamp": 1762352706
+}
+2025-11-05 16:25:11,983 [INFO] [16:25:11] device/status
+2025-11-05 16:25:11,984 [INFO] {
+  "compressor_current_a": 5.12,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.06,
+  "timestamp": 1762352711
+}
+2025-11-05 16:25:16,986 [INFO] [16:25:16] device/status
+2025-11-05 16:25:16,987 [INFO] {
+  "compressor_current_a": 5.07,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.35,
+  "timestamp": 1762352716
+}
+2025-11-05 16:25:21,985 [INFO] [16:25:21] device/status
+2025-11-05 16:25:21,986 [INFO] {
+  "compressor_current_a": 5.43,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.57,
+  "timestamp": 1762352721
+}
+2025-11-05 16:25:26,985 [INFO] [16:25:26] device/status
+2025-11-05 16:25:26,986 [INFO] {
+  "compressor_current_a": 5.21,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.63,
+  "timestamp": 1762352726
+}
+2025-11-05 16:25:31,985 [INFO] [16:25:31] device/status
+2025-11-05 16:25:31,988 [INFO] {
+  "compressor_current_a": 5.09,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.92,
+  "timestamp": 1762352731
+}
+2025-11-05 16:25:37,025 [INFO] [16:25:37] device/status
+2025-11-05 16:25:37,026 [INFO] {
+  "compressor_current_a": 5.21,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.56,
+  "timestamp": 1762352737
+}
+2025-11-05 16:25:41,988 [INFO] [16:25:41] device/status
+2025-11-05 16:25:41,989 [INFO] {
+  "compressor_current_a": 5.17,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.3,
+  "timestamp": 1762352741
+}
+2025-11-05 16:25:46,993 [INFO] [16:25:46] device/status
+2025-11-05 16:25:46,995 [INFO] {
+  "compressor_current_a": 5.53,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.4,
+  "timestamp": 1762352746
+}
+2025-11-05 16:25:51,986 [INFO] [16:25:51] device/status
+2025-11-05 16:25:51,986 [INFO] {
+  "compressor_current_a": 5.28,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.66,
+  "timestamp": 1762352751
+}
+2025-11-05 16:25:57,016 [INFO] [16:25:57] device/status
+2025-11-05 16:25:57,017 [INFO] {
+  "compressor_current_a": 4.86,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.03,
+  "timestamp": 1762352757
+}
+2025-11-05 16:26:01,994 [INFO] [16:26:01] device/status
+2025-11-05 16:26:01,994 [INFO] {
+  "compressor_current_a": 5.07,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.03,
+  "timestamp": 1762352761
+}
+2025-11-05 16:26:06,980 [INFO] [16:26:06] device/status
+2025-11-05 16:26:06,980 [INFO] {
+  "compressor_current_a": 5.16,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.02,
+  "timestamp": 1762352766
+}
+2025-11-05 16:26:11,991 [INFO] [16:26:11] device/status
+2025-11-05 16:26:11,991 [INFO] {
+  "compressor_current_a": 5.2,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.56,
+  "timestamp": 1762352771
+}
+2025-11-05 16:26:16,981 [INFO] [16:26:16] device/status
+2025-11-05 16:26:16,981 [INFO] {
+  "compressor_current_a": 5.37,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.79,
+  "timestamp": 1762352776
+}
+2025-11-05 16:26:21,994 [INFO] [16:26:21] device/status
+2025-11-05 16:26:21,995 [INFO] {
+  "compressor_current_a": 5.39,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.7,
+  "timestamp": 1762352781
+}
+2025-11-05 16:26:26,986 [INFO] [16:26:26] device/status
+2025-11-05 16:26:26,987 [INFO] {
+  "compressor_current_a": 5.14,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.97,
+  "timestamp": 1762352786
+}
+2025-11-05 16:26:31,983 [INFO] [16:26:31] device/status
+2025-11-05 16:26:31,983 [INFO] {
+  "compressor_current_a": 5.12,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.71,
+  "timestamp": 1762352791
+}
+2025-11-05 16:26:36,984 [INFO] [16:26:36] device/status
+2025-11-05 16:26:36,985 [INFO] {
+  "compressor_current_a": 5.07,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.65,
+  "timestamp": 1762352796
+}
+2025-11-05 16:26:41,987 [INFO] [16:26:41] device/status
+2025-11-05 16:26:41,987 [INFO] {
+  "compressor_current_a": 4.98,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.87,
+  "timestamp": 1762352801
+}
+2025-11-05 16:26:46,989 [INFO] [16:26:46] device/status
+2025-11-05 16:26:46,989 [INFO] {
+  "compressor_current_a": 5.21,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.56,
+  "timestamp": 1762352806
+}
+2025-11-05 16:26:51,986 [INFO] [16:26:51] device/status
+2025-11-05 16:26:51,986 [INFO] {
+  "compressor_current_a": 5.34,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.1,
+  "timestamp": 1762352811
+}
+2025-11-05 16:26:56,989 [INFO] [16:26:56] device/status
+2025-11-05 16:26:56,990 [INFO] {
+  "compressor_current_a": 5.19,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.67,
+  "timestamp": 1762352816
+}
+2025-11-05 16:27:01,991 [INFO] [16:27:01] device/status
+2025-11-05 16:27:01,992 [INFO] {
+  "compressor_current_a": 5.41,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.6,
+  "timestamp": 1762352821
+}
+2025-11-05 16:27:06,987 [INFO] [16:27:06] device/status
+2025-11-05 16:27:06,987 [INFO] {
+  "compressor_current_a": 5.36,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.63,
+  "timestamp": 1762352826
+}
+2025-11-05 16:27:11,986 [INFO] [16:27:11] device/status
+2025-11-05 16:27:11,987 [INFO] {
+  "compressor_current_a": 5.35,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.69,
+  "timestamp": 1762352831
+}
+2025-11-05 16:27:16,984 [INFO] [16:27:16] device/status
+2025-11-05 16:27:16,985 [INFO] {
+  "compressor_current_a": 5.28,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.98,
+  "timestamp": 1762352836
+}
+2025-11-05 16:27:21,987 [INFO] [16:27:21] device/status
+2025-11-05 16:27:21,987 [INFO] {
+  "compressor_current_a": 5.44,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.1,
+  "timestamp": 1762352841
+}
+2025-11-05 16:27:26,992 [INFO] [16:27:26] device/status
+2025-11-05 16:27:26,992 [INFO] {
+  "compressor_current_a": 5,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.76,
+  "timestamp": 1762352846
+}
+2025-11-05 16:27:32,084 [INFO] [16:27:32] device/status
+2025-11-05 16:27:32,087 [INFO] {
+  "compressor_current_a": 4.81,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.74,
+  "timestamp": 1762352852
+}
+2025-11-05 16:27:36,993 [INFO] [16:27:36] device/status
+2025-11-05 16:27:36,993 [INFO] {
+  "compressor_current_a": 4.81,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.12,
+  "timestamp": 1762352856
+}
+2025-11-05 16:27:41,993 [INFO] [16:27:41] device/status
+2025-11-05 16:27:41,994 [INFO] {
+  "compressor_current_a": 5.32,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.96,
+  "timestamp": 1762352861
+}
+2025-11-05 16:27:46,988 [INFO] [16:27:46] device/status
+2025-11-05 16:27:46,988 [INFO] {
+  "compressor_current_a": 5.56,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.63,
+  "timestamp": 1762352866
+}
+2025-11-05 16:27:51,992 [INFO] [16:27:51] device/status
+2025-11-05 16:27:51,993 [INFO] {
+  "compressor_current_a": 4.96,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.64,
+  "timestamp": 1762352871
+}
+2025-11-05 16:27:56,990 [INFO] [16:27:56] device/status
+2025-11-05 16:27:56,991 [INFO] {
+  "compressor_current_a": 5.49,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.22,
+  "timestamp": 1762352876
+}
+2025-11-05 16:28:02,008 [INFO] [16:28:02] device/status
+2025-11-05 16:28:02,008 [INFO] {
+  "compressor_current_a": 4.8,
+  "device_id": "A1",
+  "door_open": 1,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 5.2,
+  "timestamp": 1762352881
+}
+2025-11-05 16:28:06,985 [INFO] [16:28:06] device/status
+2025-11-05 16:28:06,986 [INFO] {
+  "compressor_current_a": 5.36,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 4.76,
+  "timestamp": 1762352886
+}
+2025-11-05 16:28:11,984 [INFO] [16:28:11] device/status
+2025-11-05 16:28:11,985 [INFO] {
+  "compressor_current_a": 4.99,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.69,
+  "timestamp": 1762352891
+}
+2025-11-05 16:28:16,982 [INFO] [16:28:16] device/status
+2025-11-05 16:28:16,982 [INFO] {
+  "compressor_current_a": 4.93,
+  "device_id": "A1",
+  "door_open": 0,
+  "scenario": "normal",
+  "setpoint_c": 4,
+  "temp_c": 3.73,
+  "timestamp": 1762352896
+}

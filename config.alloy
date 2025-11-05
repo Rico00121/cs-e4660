@@ -21,6 +21,11 @@ local.file_match "logs" {
         service = "nanomq",
         layer = "edge",
     },
+    {
+        __path__ = "/cloud-service-logs/*.log",
+        service = "cloud",
+        layer = "cloud",
+    },
 
   ]
 }
