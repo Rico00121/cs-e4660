@@ -16,10 +16,16 @@ local.file_match "logs" {
         service = "neuronex",
         layer = "gateway",
     },
+    {
+        __path__ = "/nanomq-logs/*.log",
+        service = "nanomq",
+        layer = "edge",
+    },
+
   ]
 }
 
-loki.source.file "neuronex" {
+loki.source.file "files" {
   targets = local.file_match.logs.targets
   forward_to = [loki.write.to_loki.receiver]
 }

@@ -29,6 +29,9 @@ services:
       driver: "json-file"
       options:
         max-size: "100m"
+    volumes:
+      - ./nanomq.conf:/etc/nanomq.conf
+      - nanomq-logs:/var/log/nanomq 
     restart: unless-stopped
     networks:
       - iot_network
@@ -50,6 +53,7 @@ services:
     volumes:
       - ./config.alloy:/etc/alloy/config.alloy
       - neuronex-logs:/neuronex-logs
+      - nanomq-logs:/nanomq-logs
     command: run --server.http.listen-addr=0.0.0.0:12345 --storage.path=/var/lib/alloy/data /etc/alloy/config.alloy
     networks:
       - iot_network
@@ -73,3 +77,4 @@ networks:
 volumes:
   grafana-storage:
   neuronex-logs:
+  nanomq-logs:
