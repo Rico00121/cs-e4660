@@ -2,5 +2,5 @@
 .DS_Store
 .DS_Store?
 __pycache__
-cloud-service-logs/*
+cloud-service-logs/
 .env
