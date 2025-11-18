@@ -6,6 +6,7 @@ import json
 from datetime import datetime
 import logging
 import os
+from ai_agent.discord_service import send_message
 
 log_dir = "./cloud-service-logs"
 os.makedirs(log_dir, exist_ok=True) 
@@ -36,8 +37,9 @@ def on_message(client, userdata, msg):
     try:
         data = json.loads(msg.payload.decode('utf-8'))
         timestamp = datetime.now().strftime("%H:%M:%S")
-        logging.info(f"[{timestamp}] {msg.topic}")
         logging.info(json.dumps(data, indent=2, ensure_ascii=False))
+        # send to discord failure channel
+        send_message(f"[{timestamp}] {msg.topic}\n{json.dumps(data, indent=2, ensure_ascii=False)}")
     except:
         logging.error(f"{msg.topic}: {msg.payload.decode('utf-8')}")
 

@@ -8,9 +8,10 @@ load_dotenv()
 
 # Get Discord bot token and channel ID from environment variables
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
-DISCORD_CHANNEL_ID = os.getenv("DISCORD_CHANNEL_ID")
+DISCORD_FAILURE_CHANNEL_ID = os.getenv("DISCORD_FAILURE_CHANNEL_ID")
+DISCORD_GENERAL_CHANNEL_ID = os.getenv("DISCORD_GENERAL_CHANNEL_ID")
 def send_message(content: str):
-    url = f"https://discord.com/api/v10/channels/{DISCORD_CHANNEL_ID}/messages"
+    url = f"https://discord.com/api/v10/channels/{DISCORD_GENERAL_CHANNEL_ID}/messages"
     headers = {
         "Authorization": f"Bot {DISCORD_BOT_TOKEN}",
         "Content-Type": "application/json"
@@ -25,7 +26,7 @@ def send_message(content: str):
     else:
         print("Failed to send message: ", resp.status_code, resp.text)
 
-def send_alert_embed_card(
+def send_embed_card(
     title: str,
     description: str,
     fields: dict | None = None,
@@ -48,7 +49,7 @@ def send_alert_embed_card(
     }
     color = level_colors.get(level, 0xF1C40F)
 
-    url = f"https://discord.com/api/v10/channels/{DISCORD_CHANNEL_ID}/messages"
+    url = f"https://discord.com/api/v10/channels/{DISCORD_FAILURE_CHANNEL_ID}/messages"
     headers = {
         "Authorization": f"Bot {DISCORD_BOT_TOKEN}",
         "Content-Type": "application/json"
@@ -72,8 +73,6 @@ def send_alert_embed_card(
         ]
 
     json_data = {
-        # Can carry a normal text, or just send embed
-        # "content": "⚠️ New alert",
         "embeds": [embed]
     }
 
