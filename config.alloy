@@ -32,5 +32,12 @@ local.file_match "logs" {
 
 loki.source.file "files" {
   targets = local.file_match.logs.targets
-  forward_to = [loki.write.to_loki.receiver]
+  forward_to = [loki.process.multiline_log.receiver]
+}
+
+loki.process "multiline_log" {
+    forward_to = [loki.write.to_loki.receiver]
+    stage.multiline {
+        firstline = `^\d{4}-\d{2}-\d{2}`
+    }
 }
