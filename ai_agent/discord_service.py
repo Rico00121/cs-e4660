@@ -49,7 +49,14 @@ def send_embed_card(
     }
     color = level_colors.get(level, 0xF1C40F)
 
-    url = f"https://discord.com/api/v10/channels/{DISCORD_FAILURE_CHANNEL_ID}/messages"
+    if level == "info":
+        channel_id = DISCORD_GENERAL_CHANNEL_ID
+        print(f"Sending embed card to general channel: {channel_id}")
+    else:
+        channel_id = DISCORD_FAILURE_CHANNEL_ID
+        print(f"Sending embed card to failure detection channel: {channel_id}")
+
+    url = f"https://discord.com/api/v10/channels/{channel_id}/messages"
     headers = {
         "Authorization": f"Bot {DISCORD_BOT_TOKEN}",
         "Content-Type": "application/json"
@@ -78,6 +85,6 @@ def send_embed_card(
 
     resp = requests.post(url, headers=headers, json=json_data)
     if resp.status_code in (200, 201):
-        print("Successfully sent alert embed card: ", resp.json()["id"])
+        print(f"Successfully sent {level} embed card: ", resp.json()["id"])
     else:
-        print("Failed to send alert embed card: ", resp.status_code, resp.text)
+        print(f"Failed to send {level} embed card: ", resp.status_code, resp.text)

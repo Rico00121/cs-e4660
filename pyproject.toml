@@ -8,6 +8,7 @@ dependencies = [
     "fastapi>=0.120.4",
     "google>=3.0.0",
     "google-genai>=1.51.0",
+    "openai>=1.58.1",
     "paho-mqtt>=2.1.0",
     "pydantic>=2.12.3",
     "python-dotenv>=1.2.1",
