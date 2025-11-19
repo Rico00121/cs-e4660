@@ -1,4 +1,3 @@
-from click import prompt
 from google import genai
 from dotenv import load_dotenv
 import os
@@ -19,7 +18,7 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 logs = query_loki_logs(minutes=1, label_match="{service=\"cloud\"}")
 
 logs_text = ""
-for log in logs[:5]:  # 只取最近10条，避免太长
+for log in logs[:5]:  # Take the last 5 logs to avoid too long
     logs_text += log['line'] + "\n"
 
 print(logs_text)

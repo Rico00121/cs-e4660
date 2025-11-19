@@ -17,7 +17,6 @@ class ColdRoomStatus(BaseModel):
     door_open: int
     compressor_current_a: float
     setpoint_c: float
-    scenario: str  # Current scenario
 
 class MockColdRoom:
     """Mock cold room device"""
@@ -64,7 +63,6 @@ class MockColdRoom:
             door_open=self.door_open,
             compressor_current_a=self.compressor_current_a,
             setpoint_c=self.setpoint_c,
-            scenario=self.scenario.value,
         )
     
     def set_scenario(self, scenario: ScenarioType) -> dict:
@@ -86,7 +84,7 @@ cold_room = MockColdRoom(device_id="A1", setpoint_c=4.0)
 def get_status():
     """Get device status"""
     data = cold_room.get_status()
-    print(f'[{data.scenario}] API called - temp: {data.temp_c}°C, door: {data.door_open}, current: {data.compressor_current_a}A')
+    print(f'[Simulator device {data.device_id}] API called - temp: {data.temp_c}°C, door: {data.door_open}, current: {data.compressor_current_a}A')
     return data
 
 @app.get("/scenario/normal")
