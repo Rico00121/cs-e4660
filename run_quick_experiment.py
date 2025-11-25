@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 
+import json
+import os
+from datetime import datetime
 from ai_agent.main import analyze_logs
 
 # Test configurations
 CONFIGS = [
-    {"name": "Short Range", "minutes": 1},
-    {"name": "Medium Range", "minutes": 5},
-    {"name": "Long Range", "minutes": 15}
+    {"name": "Short Range", "minutes": 5},
+    {"name": "Medium Range", "minutes": 15},
+    {"name": "Long Range", "minutes": 30}
 ]
 
 def run_experiments():
@@ -63,65 +66,54 @@ def generate_report(results):
 - Short Range: {results[0]['metrics']['analysis_time_seconds']:.2f} seconds
 - Medium Range: {results[1]['metrics']['analysis_time_seconds']:.2f} seconds
 - Long Range: {results[-1]['metrics']['analysis_time_seconds']:.2f} seconds
-- Time Increase: {results[-1]['metrics']['analysis_time_seconds'] / results[0]['metrics']['analysis_time_seconds']:.1f}x
-
-## Answering Research Questions
-
-### Q1: More data or less data? Behavior change?
-
-Observations:
-- Short Range: {results[0]['status']}
-- Medium Range: {results[1]['status']}
-- Long Range: {results[2]['status']}
-
-[Please fill in your analysis]
-
-### Q2: QoA: time, accuracy, number of devices? Why?
-
-Time Cost: from {results[0]['metrics']['analysis_time_seconds']:.2f} seconds to {results[-1]['metrics']['analysis_time_seconds']:.2f} seconds
-
-[Please fill in your analysis]
-
-### Q3: Try to extend the time range, behavior change? Correct?
-
-Time Range: Short Range → Medium Range → Long Range
-
-[Please fill in your analysis]
-
-## Recommended Configuration
-
-Recommended: {results[1]['config']['name']} ({results[1]['config']['minutes']} minutes, {results[1]['metrics']['log_count']} logs)
-
-Reason: [Please fill in]
+- From Short Range to Medium Range Time Increase: {results[1]['metrics']['analysis_time_seconds'] / results[0]['metrics']['analysis_time_seconds']:.1f}x
+- From Medium Range to Long Range Time Increase: {results[-1]['metrics']['analysis_time_seconds'] / results[1]['metrics']['analysis_time_seconds']:.1f}x
+- From Short Range to Long Range Time Increase: {results[-1]['metrics']['analysis_time_seconds'] / results[0]['metrics']['analysis_time_seconds']:.1f}x
 """
     
-    with open('Experiment_Report.md', 'w', encoding='utf-8') as f:
-        f.write(report)
-    
-    print("\n✓ Report generated: Experiment_Report.md\n")
+    return report
+
+def prepare_output_directory():
+    """Ask user for a folder name and prepare output directory."""
+    base_dir = os.path.join(os.getcwd(), "experiment-results")
+    os.makedirs(base_dir, exist_ok=True)
+
+    default_name = f"run_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    folder_name = input(f"Enter a name for this experiment run [{default_name}]: ").strip()
+    if not folder_name:
+        folder_name = default_name
+
+    run_dir = os.path.join(base_dir, folder_name)
+    os.makedirs(run_dir, exist_ok=True)
+    print(f"\nResults will be saved under: {run_dir}\n")
+    return run_dir
+
 
 def main():
-    print("""
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                         Quick Experiment                                   ║
-╚═══════════════════════════════════════════════════════════════════════════╝
-    """)
+
+    output_dir = prepare_output_directory()
     
-    # Run experiments
-    results = run_experiments()
-    
-    # Generate report
-    generate_report(results)
-    
-    # Save raw data
-    # with open('experiment_results.json', 'w', encoding='utf-8') as f:
-    #     json.dump(results, f, indent=2, ensure_ascii=False)
-    
-    # print("="*70)
-    # print("✓ Complete!")
-    # print("="*70)
-    # print("\nView REPORT.md and fill in answers to the 3 questions\n")
+    for i in range(5):
+        print(f"Running experiment {i+1} of 5...")
+        # Run experiments
+        results = run_experiments()
+        print(f"✓ Experiment {i+1} complete!")
+        # Generate report
+        report = generate_report(results)
+
+        report_path = os.path.join(output_dir, f'Experiment_Report_{i+1}.md')
+        with open(report_path, 'w', encoding='utf-8') as f:
+            f.write(report)
+        print(f"✓ Report generated: {report_path}\n")
+        
+        # Save raw data
+        json_path = os.path.join(output_dir, f'experiment_results_{i+1}.json')
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+        print(f"✓ Data saved: {json_path}\n")
+
+    print(f"✓ All experiments complete!")
+
 
 if __name__ == "__main__":
     main()
-
