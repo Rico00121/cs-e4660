@@ -28,28 +28,28 @@ The AI Agent periodically reads log data, detects anomalies and pushes them to D
 Complete the presentation script and documentation.
 
 
-# 我学到了什么
-## End-to-end IoT 测试环境的构建
-## 基于 IoT 系统的可观性构建
-## LLM 的系统集成, Prompt Engineering，使用 LLM 进行日志分析
-## 实验设计能力
-## 对于用 LLM 进行日志分析的 QoA
+# What I learned
+## Building an end-to-end IoT testing environment
+## Constructing observability for an IoT system
+## LLM system integration, prompt engineering, and log analysis with LLMs
+## Experiment design skills
+## Measuring QoA when using LLMs for log analysis
 
-# 对于 QoA 的设计
-## 前置条件：
-1. 使用 generate_test_data.py 来进行快速的日志生成。
-2. 生成日志的格式使用了和我们在 cloud_service.py中上传到 Loki 中相同的格式。
-3. 对于生成日志的场景，我使用了 simulator.py实现的 Simulator 相同的场景，即 1. Normal Operation 2. Cooling Failure
-## QoA 的测量方面
-### 对于摄取不同时间范围的日志(1/15/30 min)
-1. 检测正常的情况，对于不同时间范围的日志(1/15/30 min)
-   1. 响应时间的分析
-   2. 准确度的影响
-2. 实时产生的故障的检测 对于不同时间范围的日志(1/15/30 min)
-   1. 响应时间的分析
-   2. 准确度的影响
-###  在同一时间范围下（30 min）
-1. 间歇性故障（测试AI识别复杂模式）
-5 分钟异常，5 分钟正常，交替。
-## 过去的异常对于实时故障检测的影响
-前 10 分钟异常，后 20 分钟正常。
+# QoA design
+## Prerequisites
+1. Use `generate_test_data.py` for fast log generation.
+2. The generated logs follow the same format we ingest into Loki from `cloud_service.py`.
+3. The simulated scenarios match those in `simulator.py`: (1) Normal Operation, (2) Cooling Failure.
+## QoA measurements
+### Different time windows (1 / 15 / 30 minutes)
+1. Normal condition detection across each window:
+   1. Response-time analysis
+   2. Accuracy impact
+2. Real-time failure detection (fault occurs within the last minute) across each window:
+   1. Response-time analysis
+   2. Accuracy impact
+### Same time window (30 minutes)
+1. Intermittent failures (tests AI recognition of complex patterns)
+   - 5 minutes abnormal, 5 minutes normal, alternating
+## Impact of past anomalies on real-time detection
+- First 10 minutes abnormal, last 20 minutes normal
