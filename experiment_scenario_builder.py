@@ -48,56 +48,73 @@ def scenario_failure_at_5min():
 def scenario_intermittent_failure():
     """5 minutes abnormal, 5 minutes normal, alternating"""
     print("\nScenario 3: Intermittent failure")
-    
-    # Normal phase (30 → 25 minutes ago)
-    normal_logs, normal_count = generate_scenario_data(
-        scenario="normal",
+
+     # Failure phase (30 → 25 minutes ago)
+    failure_logs, failure_count = generate_scenario_data(
+        scenario="failure",
         start_minutes_ago=30,
         end_minutes_ago=25,
         interval_seconds=10
     )
-    push_to_loki(normal_logs)
-    print(f"✓ Normal phase: {normal_count} logs")
+    push_to_loki(failure_logs)
+    print(f"✓ Failure phase: {failure_count} logs")
     
     time.sleep(1)
     
-    # Failure phase (25 → 20 minutes ago)
-    failure_logs, failure_count = generate_scenario_data(
-        scenario="failure",
+    
+    # Normal phase (25 → 20 minutes ago)
+    normal_logs, normal_count = generate_scenario_data(
+        scenario="normal",
         start_minutes_ago=25,
         end_minutes_ago=20,
         interval_seconds=10
     )
+    push_to_loki(normal_logs)
+    print(f"✓ Normal phase: {normal_count} logs")
+    
+    time.sleep(1)
+    
+    # Failure phase (20 → 15 minutes ago)
+    failure_logs, failure_count = generate_scenario_data(
+        scenario="failure",
+        start_minutes_ago=20,
+        end_minutes_ago=15,
+        interval_seconds=10
+    )
     push_to_loki(failure_logs)
     print(f"✓ Failure phase: {failure_count} logs")
     
     time.sleep(1)
     
-    # Normal phase (20 → 15 minutes ago)
+    # Normal phase (15 → 10 minutes ago)
     normal_logs, normal_count = generate_scenario_data(
         scenario="normal",
-        start_minutes_ago=20,
-        end_minutes_ago=15,
+        start_minutes_ago=15,
+        end_minutes_ago=10,
         interval_seconds=10
     )
     push_to_loki(normal_logs)
     print(f"✓ Normal phase: {normal_count} logs")
 
-    # Failure phase (15 → 10 minutes ago)
+    time.sleep(1)
+
+    # Failure phase (10 → 5 minutes ago)
     failure_logs, failure_count = generate_scenario_data(
         scenario="failure",
-        start_minutes_ago=15,
-        end_minutes_ago=10,
+        start_minutes_ago=10,
+        end_minutes_ago=5,
         interval_seconds=10
     )
     push_to_loki(failure_logs)
     print(f"✓ Failure phase: {failure_count} logs")
 
-    # Normal phase (10 → 5 minutes ago)
+    time.sleep(1)
+    
+    # Normal phase (5 → 0 minutes ago)
     normal_logs, normal_count = generate_scenario_data(
         scenario="normal",
-        start_minutes_ago=10,
-        end_minutes_ago=5,
+        start_minutes_ago=5,
+        end_minutes_ago=0,
         interval_seconds=10
     )
     push_to_loki(normal_logs)

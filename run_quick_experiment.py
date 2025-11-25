@@ -35,6 +35,7 @@ def run_experiments():
             results.append({
                 "config": config,
                 "status": result['result'].status,
+                "description": result['result'].description,
                 "summary": result['result'].summary,
                 "metrics": result['metrics']
             })
