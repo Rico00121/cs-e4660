@@ -1,0 +1,59 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 27,
+      "total_logs_available": 27,
+      "device_count": 1,
+      "analysis_time_seconds": 2.92,
+      "api_time_seconds": 2.9,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:09:45"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "normal",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 87,
+      "total_logs_available": 87,
+      "device_count": 1,
+      "analysis_time_seconds": 2.94,
+      "api_time_seconds": 2.92,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:09:48"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "normal",
+    "summary": "All systems operational within acceptable parameters.",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 177,
+      "total_logs_available": 177,
+      "device_count": 1,
+      "analysis_time_seconds": 3.51,
+      "api_time_seconds": 3.48,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:09:51"
+    }
+  }
+]

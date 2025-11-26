@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "description": "The monitored device A1 is functioning normally. Temperature readings oscillate between 3.5°C and 5.0°C, which are within the acceptable range for both door open and closed statuses. Compressor current remains stable between 4.8A to 5.6A, indicating no anomalies detected.",
+    "summary": "All systems operating within normal parameters.",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 25,
+      "total_logs_available": 25,
+      "device_count": 1,
+      "analysis_time_seconds": 3.78,
+      "api_time_seconds": 3.76,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:34:17"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen significantly to 11.5°C, which is 7.5°C above the setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is at 6.3A, indicating high load, which is consistent over several readings as the system struggles to cool effectively.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 86,
+      "total_logs_available": 86,
+      "device_count": 1,
+      "analysis_time_seconds": 6.4,
+      "api_time_seconds": 6.37,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:34:23"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has significantly risen to 11.9°C, which is 7.9°C above the target setpoint of 4.0°C and persists with closed door status. Additionally, the compressor current is unusually high, recorded at 6.5A, indicating a system unable to cool effectively while under stress. This situation poses a major risk to the integrity of stored products.",
+    "summary": "Serious Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 178,
+      "total_logs_available": 178,
+      "device_count": 1,
+      "analysis_time_seconds": 8.16,
+      "api_time_seconds": 8.12,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:34:31"
+    }
+  }
+]

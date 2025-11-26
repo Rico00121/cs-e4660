@@ -2,7 +2,7 @@
 
 ## Overview
 
-The simulator supports two operating scenarios that are used to test the LLM’s ability to reason about device status.
+The simulator supports two operating scenarios or we can say status that are used to test the LLM’s ability to reason about device status.
 
 ## Scenario Details
 

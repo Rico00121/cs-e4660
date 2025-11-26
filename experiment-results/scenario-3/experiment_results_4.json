@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "description": "The monitored device A1 is functioning normally. Temperature oscillates between 3.5°C and 5.0°C, remaining within acceptable range for both closed and open door scenarios. Compressor current is stable at 4.8A to 5.6A, indicating efficient performance. No anomalies detected.",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 23,
+      "total_logs_available": 23,
+      "device_count": 1,
+      "analysis_time_seconds": 2.5,
+      "api_time_seconds": 2.49,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:34:34"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is at 6.5A, indicative of high load but failing to cool effectively; this pattern indicates a critical cooling failure.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 84,
+      "total_logs_available": 84,
+      "device_count": 1,
+      "analysis_time_seconds": 3.96,
+      "api_time_seconds": 3.94,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:34:38"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is abnormally high at 6.5A, indicating the compressor is under excessive load but failing to cool effectively. This pattern matches a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 177,
+      "total_logs_available": 177,
+      "device_count": 1,
+      "analysis_time_seconds": 5.31,
+      "api_time_seconds": 5.27,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:34:43"
+    }
+  }
+]

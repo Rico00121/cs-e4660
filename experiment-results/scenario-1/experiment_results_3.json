@@ -1,0 +1,59 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "summary": "All systems operating within normal parameters.",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 27,
+      "total_logs_available": 27,
+      "device_count": 1,
+      "analysis_time_seconds": 3.99,
+      "api_time_seconds": 3.98,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:09:55"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "warning",
+    "summary": "Slightly elevated temperature detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 86,
+      "total_logs_available": 86,
+      "device_count": 1,
+      "analysis_time_seconds": 4.88,
+      "api_time_seconds": 4.86,
+      "status": "warning",
+      "timestamp": "2025-11-25 20:10:00"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 176,
+      "total_logs_available": 176,
+      "device_count": 1,
+      "analysis_time_seconds": 6.39,
+      "api_time_seconds": 6.34,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:10:06"
+    }
+  }
+]

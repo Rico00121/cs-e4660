@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has consistently risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products as the cooling system appears to be malfunctioning. The compressor current is consistently high, averaging above 6.0A, indicating significant stress on the system without effective cooling.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 29,
+      "total_logs_available": 29,
+      "device_count": 1,
+      "analysis_time_seconds": 8.05,
+      "api_time_seconds": 8.01,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:24:26"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses immediate risk to stored products. The compressor current is abnormally high at 6.6A, indicating that the compressor is under excessive load but failing to cool effectively. This pattern matches a cooling system failure scenario where the door is consistently closed.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 89,
+      "total_logs_available": 89,
+      "device_count": 1,
+      "analysis_time_seconds": 7.07,
+      "api_time_seconds": 7.05,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:24:33"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is abnormally high at 6.6A, indicating the compressor is under excessive load but failing to cool effectively. This pattern matches a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 179,
+      "total_logs_available": 179,
+      "device_count": 1,
+      "analysis_time_seconds": 6.77,
+      "api_time_seconds": 6.74,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:24:40"
+    }
+  }
+]

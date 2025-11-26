@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products. The compressor current is excessively high at 6.8A, indicating that the compressor is under significant load but is failing to cool effectively. This pattern indicates a cooling system failure.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 21,
+      "total_logs_available": 21,
+      "device_count": 1,
+      "analysis_time_seconds": 8.0,
+      "api_time_seconds": 7.98,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:50"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products. Compressor current is at 6.6A, indicating the compressor is under excessive load but failing to cool effectively. The door has remained closed throughout this period.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 81,
+      "total_logs_available": 81,
+      "device_count": 1,
+      "analysis_time_seconds": 6.17,
+      "api_time_seconds": 6.14,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:56"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has significantly exceeded the acceptable range, reaching 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products. The compressor current is also elevated at 6.6A, indicating excessive load without effective cooling after the door was closed.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 170,
+      "total_logs_available": 170,
+      "device_count": 1,
+      "analysis_time_seconds": 6.99,
+      "api_time_seconds": 6.96,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:26:03"
+    }
+  }
+]

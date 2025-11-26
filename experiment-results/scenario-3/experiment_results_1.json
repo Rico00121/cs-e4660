@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "description": "The monitored device A1 is functioning normally. The temperature fluctuates between 3.5°C and 5.0°C, staying within the acceptable range for both door open and closed conditions. The compressor current remains stable between 4.8A and 5.6A. Door activity is appropriate, with random openings that do not affect overall operation. No anomalies detected.",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 28,
+      "total_logs_available": 28,
+      "device_count": 1,
+      "analysis_time_seconds": 3.37,
+      "api_time_seconds": 3.28,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:33:46"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is abnormally high at 6.5A, indicating the compressor is under excessive load but failing to cool effectively. The door status is closed, which further confirms a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 89,
+      "total_logs_available": 89,
+      "device_count": 1,
+      "analysis_time_seconds": 6.45,
+      "api_time_seconds": 6.43,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:33:52"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products as the cooling system is unable to maintain the required temperature. The compressor current is also elevated at 6.5A, indicating strain but failing to cool effectively.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 181,
+      "total_logs_available": 181,
+      "device_count": 1,
+      "analysis_time_seconds": 6.58,
+      "api_time_seconds": 6.56,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:33:59"
+    }
+  }
+]

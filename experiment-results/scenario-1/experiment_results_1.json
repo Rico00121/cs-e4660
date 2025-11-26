@@ -1,0 +1,59 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 29,
+      "total_logs_available": 29,
+      "device_count": 1,
+      "analysis_time_seconds": 3.51,
+      "api_time_seconds": 3.46,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:09:31"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "warning",
+    "summary": "Slight temperature elevation detected with compressor operating at higher current.",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 89,
+      "total_logs_available": 89,
+      "device_count": 1,
+      "analysis_time_seconds": 4.98,
+      "api_time_seconds": 4.91,
+      "status": "warning",
+      "timestamp": "2025-11-25 20:09:36"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "warning",
+    "summary": "Slight temperature elevation detected due to door activity",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 178,
+      "total_logs_available": 178,
+      "device_count": 1,
+      "analysis_time_seconds": 5.37,
+      "api_time_seconds": 5.35,
+      "status": "warning",
+      "timestamp": "2025-11-25 20:09:42"
+    }
+  }
+]

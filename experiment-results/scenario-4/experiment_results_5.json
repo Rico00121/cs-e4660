@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "description": "The monitored device is functioning normally. Temperature is stable within acceptable ranges, oscillating around the setpoint of 4.0°C, and compressor current is also within normal operating limits.",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 24,
+      "total_logs_available": 24,
+      "device_count": 1,
+      "analysis_time_seconds": 2.08,
+      "api_time_seconds": 2.06,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:36:45"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "normal",
+    "description": "The monitored device A1 is functioning normally, with temperatures consistently maintained between 3.5°C and 5.5°C and compressor currents within the expected range of 4.8A to 5.6A. The door activity appears to be typical, not indicating any prolonged openings that would affect the temperature severely.",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 84,
+      "total_logs_available": 84,
+      "device_count": 1,
+      "analysis_time_seconds": 4.85,
+      "api_time_seconds": 4.84,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:36:50"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 12.0°C, which is 8.0°C above the setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is abnormally high at 6.7A, indicating excessive load but failing to cool effectively. This pattern matches a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 174,
+      "total_logs_available": 174,
+      "device_count": 1,
+      "analysis_time_seconds": 5.2,
+      "api_time_seconds": 5.18,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:36:55"
+    }
+  }
+]

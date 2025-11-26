@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above setpoint of 4.0°C, posing immediate risk to stored products. Compressor current is at 6.8A, indicating excessive load and ineffective cooling. This matches a cooling system failure scenario since the door has remained closed throughout.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 25,
+      "total_logs_available": 25,
+      "device_count": 1,
+      "analysis_time_seconds": 6.24,
+      "api_time_seconds": 6.22,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:07"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has reached a high of 11.9°C, exceeding the setpoint of 4.0°C by 7.9°C. The compressor current is consistently high at 6.0-6.8A, indicating the compressor is under excessive load but failing to cool effectively. The door status remains closed. This pattern signals a critical cooling system failure, posing immediate risk to stored products.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 85,
+      "total_logs_available": 85,
+      "device_count": 1,
+      "analysis_time_seconds": 6.14,
+      "api_time_seconds": 6.12,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:13"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products. The compressor current is abnormally high at 6.6A, indicating excessive load without effective cooling. This pattern matches a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 175,
+      "total_logs_available": 175,
+      "device_count": 1,
+      "analysis_time_seconds": 7.31,
+      "api_time_seconds": 7.29,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:20"
+    }
+  }
+]

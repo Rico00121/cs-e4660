@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "description": "The monitored device A1 is functioning normally. The temperature fluctuates within the expected range of 3.5°C to 5.5°C, with compressor currents remaining stable and within the acceptable range. Door activity is intermittent, and readings remain consistent with normal operation. No anomalies detected.",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 26,
+      "total_logs_available": 26,
+      "device_count": 1,
+      "analysis_time_seconds": 2.79,
+      "api_time_seconds": 2.76,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:34:02"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is abnormally high at 6.5A, indicating the compressor is under excessive load and failing to cool effectively. This pattern matches a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 88,
+      "total_logs_available": 88,
+      "device_count": 1,
+      "analysis_time_seconds": 5.26,
+      "api_time_seconds": 5.24,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:34:07"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is abnormally high at 6.5A, indicating the compressor is under excessive load but failing to cool effectively. This pattern matches a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 180,
+      "total_logs_available": 180,
+      "device_count": 1,
+      "analysis_time_seconds": 5.94,
+      "api_time_seconds": 5.91,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:34:13"
+    }
+  }
+]

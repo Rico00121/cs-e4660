@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses immediate risk to stored products. Compressor current is at 6.6A, indicating the compressor is under excessive load but failing to cool effectively. The situation remains consistently outside of normal operating parameters with door status closed.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 23,
+      "total_logs_available": 23,
+      "device_count": 1,
+      "analysis_time_seconds": 8.87,
+      "api_time_seconds": 8.78,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:29"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products due to the inability of the cooling system to maintain required temperatures. Compressor current is also abnormally high at 6.6A, indicating the compressor is under excessive load and failing to cool effectively.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 83,
+      "total_logs_available": 83,
+      "device_count": 1,
+      "analysis_time_seconds": 5.29,
+      "api_time_seconds": 5.27,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:34"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: Temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products as the compressor current is currently at 6.6A, indicating the compressor is under excessive load but failing to cool effectively. All readings show a closed door within the device operational context, pointing to a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 173,
+      "total_logs_available": 173,
+      "device_count": 1,
+      "analysis_time_seconds": 7.34,
+      "api_time_seconds": 7.3,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:42"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 24,
+      "total_logs_available": 24,
+      "device_count": 1,
+      "analysis_time_seconds": 2.45,
+      "api_time_seconds": 2.45,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:10:18"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "normal",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 84,
+      "total_logs_available": 84,
+      "device_count": 1,
+      "analysis_time_seconds": 2.9,
+      "api_time_seconds": 2.88,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:10:21"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 174,
+      "total_logs_available": 174,
+      "device_count": 1,
+      "analysis_time_seconds": 6.4,
+      "api_time_seconds": 6.38,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:10:28"
+    }
+  }
+]

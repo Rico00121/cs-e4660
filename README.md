@@ -51,5 +51,5 @@ Complete the presentation script and documentation.
 ### Same time window (30 minutes)
 1. Intermittent failures (tests AI recognition of complex patterns)
    - 5 minutes abnormal, 5 minutes normal, alternating
-## Impact of past anomalies on real-time detection
+2. Impact of past anomalies on real-time detection
 - First 10 minutes abnormal, last 20 minutes normal

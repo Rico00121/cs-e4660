@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses an immediate risk to stored products. The compressor current is elevated at 6.8A, indicating the compressor is under excessive load but failing to cool effectively. This pattern confirms a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 27,
+      "total_logs_available": 27,
+      "device_count": 1,
+      "analysis_time_seconds": 6.81,
+      "api_time_seconds": 6.79,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:24:46"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 11.9°C, which is 7.9°C above the setpoint of 4.0°C. This poses immediate risk to stored products. Additionally, the compressor current is abnormally high at 6.6A, indicating that the compressor is under excessive load but failing to cool effectively. This scenario matches a cooling system failure pattern.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 87,
+      "total_logs_available": 87,
+      "device_count": 1,
+      "analysis_time_seconds": 7.21,
+      "api_time_seconds": 7.18,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:24:54"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature readings have consistently exceeded the acceptable range, with the highest reading reaching 11.9°C, which is 7.9°C above the setpoint of 4.0°C. The compressor current is also high, oscillating between 6.0A and 6.8A, indicating that the system is under stress yet failing to cool effectively. This pattern indicates a serious cooling system failure that needs immediate attention to prevent potential product loss.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 177,
+      "total_logs_available": 177,
+      "device_count": 1,
+      "analysis_time_seconds": 6.76,
+      "api_time_seconds": 6.74,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:25:00"
+    }
+  }
+]

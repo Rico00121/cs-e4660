@@ -1,0 +1,62 @@
+[
+  {
+    "config": {
+      "name": "Short Range",
+      "minutes": 5
+    },
+    "status": "normal",
+    "description": "The monitored device A1 is functioning normally. Temperature has consistently remained between 3.5°C and 5.0°C with occasional brief spikes due to door activity, while compressor current readings are all within the normal range of 4.8-5.6A.",
+    "summary": "All systems operating within normal parameters",
+    "metrics": {
+      "time_range_minutes": 5,
+      "log_limit": null,
+      "log_count": 28,
+      "total_logs_available": 28,
+      "device_count": 1,
+      "analysis_time_seconds": 2.89,
+      "api_time_seconds": 2.87,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:36:08"
+    }
+  },
+  {
+    "config": {
+      "name": "Medium Range",
+      "minutes": 15
+    },
+    "status": "normal",
+    "description": "The monitored device (A1) is functioning normally. The temperature is stable, oscillating around the setpoint of 4.0°C, ranging between 3.5°C and 5.0°C, and the compressor current remains within the normal operational limits of 4.8–5.6A. The door status indicates normal usage patterns with occasional openings.",
+    "summary": "All systems operating within normal parameters.",
+    "metrics": {
+      "time_range_minutes": 15,
+      "log_limit": null,
+      "log_count": 88,
+      "total_logs_available": 88,
+      "device_count": 1,
+      "analysis_time_seconds": 3.36,
+      "api_time_seconds": 3.34,
+      "status": "normal",
+      "timestamp": "2025-11-25 20:36:12"
+    }
+  },
+  {
+    "config": {
+      "name": "Long Range",
+      "minutes": 30
+    },
+    "status": "critical",
+    "description": "CRITICAL: The temperature has risen to 10.7°C, which is 6.7°C above the setpoint of 4.0°C. This poses an immediate risk to stored products. The compressor current is abnormally high at 6.6A, indicating that the compressor is under excessive load and failing to cool effectively. This pattern matches a cooling system failure scenario.",
+    "summary": "Cooling System Failure Detected",
+    "metrics": {
+      "time_range_minutes": 30,
+      "log_limit": null,
+      "log_count": 178,
+      "total_logs_available": 178,
+      "device_count": 1,
+      "analysis_time_seconds": 6.27,
+      "api_time_seconds": 6.25,
+      "status": "critical",
+      "timestamp": "2025-11-25 20:36:18"
+    }
+  }
+]
