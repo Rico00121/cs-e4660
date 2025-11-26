@@ -37,13 +37,26 @@ The simulator operates in two core states ([details](docs/Device_Scenarios.md)):
 In this prototype the entire system collects simulator-generated telemetry as unified logs, then periodically feeds them into the LLM for anomaly detection and root-cause analysis.
 
 ## QoA Experiment Design
+To further verify the impact of LLM's response time, accuracy, and time window size on judgment in various IoT scenarios, I designed a series of tests to evaluate QoA in specific scenarios. The aim is to obtain data to support usability in these scenarios and to gain a deeper understanding of LLM's shortcomings and advantages in the current context.
+### Prerequisites
+1. Use `generate_test_data.py` for logs batch generation.
+2. The generated logs follow the same format we ingest into Loki from `cloud_service.py`.
+3. The simulated [scenarios](docs/Device_Scenarios.md) match those in `simulator.py`: (1) Normal Operation, (2) Cooling Failure.
+### QoA measurements
+To explore the impact of LLM on **response-time** analysis and **accuracy** of time series data across different time windows, we designed the following experiment. The experiment has two dimensions. One is to examine the basic real-time fault detection capability of LLM for logs. The other specifically targets the interference of past anomalies on LLM detection results and whether LLM can identify complex fault patterns (periodic faults) over a longer time frame (30 minutes).
 
+#### Different time windows (5 / 15 / 30 minutes)
+1. Normal condition detection across each window (The impact of different time windows on LLM misjudgments)
+2. Real-time failure detection (fault occurs within the last minute) across each time window. (The impact of different time windows on real-time fault detection)
+#### Same time window (30 minutes)
+1. Intermittent failures (tests AI recognition of complex patterns)
+   - 5 minutes abnormal, 5 minutes normal, alternating
+2. Impact of past anomalies on real-time detection (Past information interference)
+   - First 10 minutes abnormal, last 20 minutes normal
 
 # What I learned
-## Building an end-to-end IoT testing environment
-## Constructing observability for an IoT system
-## LLM system integration, prompt engineering, and log analysis with LLMs
-## Experiment design skills
-## Measuring QoA when using LLMs for log analysis
-
-# QoA design
+- A deeper understanding of observability topics.
+- How to build an end-to-end IoT testing environment.
+- How to construct observability for a complex system.
+- How to integrate LLMs into a existing system, prompt engineering, and log analysis with LLMs.
+- How to evaluate a model's QoA and how to design experiment for it.
