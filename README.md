@@ -1,31 +1,33 @@
-# Overview
-I want to build a multi-layer IoT system’s observability and intelligent operation and maintenance closed loop, from the device side to the cloud, to AI and Human-in-the-loop. This reflects the synergistic value of Observability × AI × Human in a multi-continuum environment.
+# Observability for Multi-layer IoT System in the LLM Era
+
+This project demonstrates a multi-layer IoT observability and intelligent operations loop that spans from the device layer to the cloud, integrates AI and Human-in-the-loop workflows, and highlights the synergistic value of Observability × AI × Human across a multi-continuum environment.
 ![idea](img/idea.png)
 
-# What I want to do
-Through an IoT system simulation (Python simulator), it demonstrates how to use OpenTelemetry + Loki to achieve end-to-end observability, and use an AI Agent (including Discord Bot) to automatically detect anomalies, generate alarms, and accept manual confirmation to form an AI-Human-Observability closed loop.
+# Motivation and Goal
+This project grew out of the observability and LLM topics covered in the course [CS-E4660](https://github.com/rdsea/sys4bigml) of Aalto CS (Advanced Topics in Software Systems). 
+
+To explore how these two areas could fit together in a practical production setting, I built a small end-to-end prototype that includes simulated device, gateway layer, edge layer, mid-tier broker, and cloud service. Each layer has observability components so we can verify the whole system on a realistic path. 
+
+Furthermore, on top of this prototype I designed scenario-based experiments that evaluate how an LLM-powered observability loop behaves in IoT use cases, and whether its Quality of Analysis (QoA) is good enough for real operations, and also give some [experimental results analysis](docs/Experiment_Analysis.md).
+
+Through an IoT system simulation (Python simulator), the project demonstrates how to use OpenTelemetry (Alloy) + Loki to achieve end-to-end observability, and how to use an AI Agent (including a Discord Bot) to detect anomalies, issue alerts, and close the loop with human confirmation.
+
 ![simplified idea](img/simplified-idea.png)
 
-And **It will show**:
+
+In this project, **It will show**:
+
 - The logs collecting from all layers of the IoT system;
 
 - Data pipeline construction and Exporter configuration of OTel Collector;
 
-- AI Agent’s analysis and interpretation of observation data;
+- LLM's analysis and interpretation of observation data;
 
 - The integration of Human as a Service (HaaS) concepts in observable systems;
 
 - Full process visualization (Grafana + Discord embed card).
 
-# Tasks plan
-## Stage 1: Observability pipeline construction ✅
-Build the observation path, from Python Simulator/Gateway/Edge/Cloud → OTel Collector → Loki  → Grafana.
-
-## Stage 2: AI Agent Anomaly Detection ✅
-The AI Agent periodically reads log data, detects anomalies and pushes them to Discord, forming a closed loop of interaction.
-
-## Stage 3: Integration and Demonstration Preparation
-Complete the presentation script and documentation.
+- LLM analysis results for time series data of different length intervals (QoA)
 
 
 # What I learned
