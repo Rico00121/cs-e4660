@@ -42,7 +42,7 @@ To further verify the impact of LLM's response time, accuracy, and time window s
 1. Use `generate_test_data.py` for logs batch generation.
 2. The generated logs follow the same format we ingest into Loki from `cloud_service.py`.
 3. The simulated [scenarios](docs/Device_Scenarios.md) match those in `simulator.py`: (1) Normal Operation, (2) Cooling Failure.
-### QoA measurements
+### QoA Measurements
 To explore the impact of LLM on **response-time** analysis and **accuracy** of time series data across different time windows, we designed the following experiment. The experiment has two dimensions. One is to examine the basic real-time fault detection capability of LLM for logs. The other specifically targets the interference of past anomalies on LLM detection results and whether LLM can identify complex fault patterns (periodic faults) over a longer time frame (30 minutes).
 
 #### Different time windows (5 / 15 / 30 minutes)
@@ -53,8 +53,10 @@ To explore the impact of LLM on **response-time** analysis and **accuracy** of t
    - 5 minutes abnormal, 5 minutes normal, alternating
 2. Impact of past anomalies on real-time detection (Past information interference)
    - First 10 minutes abnormal, last 20 minutes normal
+### Experimental Results
+All experimental results can be viewed in the folder /experiment-result, I provided the raw JSON data of the experiment (LLM's response) and the report. A detailed summary of the results is also available [here](docs/Experiment_Analysis.md).
 
-# What I learned
+# What I Learned
 - A deeper understanding of observability topics.
 - How to build an end-to-end IoT testing environment.
 - How to construct observability for a complex system.
