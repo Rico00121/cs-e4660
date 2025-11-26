@@ -56,9 +56,14 @@ To explore the impact of LLM on **response-time** analysis and **accuracy** of t
 ### Experimental Results
 All experimental results can be viewed in the folder /experiment-result, I provided the raw JSON data of the experiment (LLM's response) and the report. A detailed summary of the results is also available [here](docs/Experiment_Analysis.md).
 
-# What I Learned
+## What I Learned
 - A deeper understanding of observability topics.
 - How to build an end-to-end IoT testing environment.
 - How to construct observability for a complex system.
 - How to integrate LLMs into a existing system, prompt engineering, and log analysis with LLMs.
 - How to evaluate a model's QoA and how to design experiment for it.
+
+## Future Work
+- Extend the current "Human as Supervisor" role into a richer Human-in-the-loop agent with real interactive workflows, decision support UIs, and more autonomy control options.
+- Conduct deeper QoA benchmarking to compare LLM-based analysis with state-of-the-art traditional ML-based anomaly detection models used in industry (e.g., Grafana's best LLM-based vs classic ML-based fault detection pipelines).
+- Explore QoA evaluation for more diverse scenarios and data organizations, such as segmented evaluation over long batches of logs or multi-window / multi-segment QoA analysis.
