@@ -8,8 +8,6 @@ The conclusions below summarize the scenario folders under `experiment-results/`
 
 Scenario 1/2 each have five runs for Short=5 min, Medium=15 min, and Long=30 min (30 reports total). Scenario 3/4 follow the README “30-minute same-window” requirement, so only the Long=30 min window was executed (five runs each, 10 reports total).
 
----
-
 ## Research Question Breakdown
 
 ### Q1: More data or less data? Behavior change?
@@ -46,15 +44,15 @@ Scenario 1/2 each have five runs for Short=5 min, Medium=15 min, and Long=
 - **Rapidly changing states** (Scenario 3, 30 min only): the entire window is required to see the periodic failure; short windows would miss everything.  
 - **Recovered states with historical residue** (Scenario 4, 30 min only): the window still contains the early failure, so it keeps flagging `critical`. Production use should pair 30-minute analysis with window trimming or time-decay weighting.
 
----
+## Conclusion
 
-## Recommended Configurations
+Based on the experimental results, we can summarize these recommended configurations for different usage scenarios.
 
-- **Routine health check** – `Short Range (5 minutes, ~25 logs)`  
+- **Routine health check** – `Short Range (5 minutes)`  
   - Fast (~3 s) and sufficient to cover door activity; ideal for high-frequency monitoring. 
-- **Diagnostic / secondary confirmation** – `Medium Range (15 minutes, ~85 logs)`  
+- **Diagnostic / secondary confirmation** – `Medium Range (15 minutes)`  
   - Captures trends and catches intermittent failures with 100% accuracy. Takes ~3.5–5.6 s and should be triggered whenever the short window looks suspicious. 
-- **Incident review / historical tracing** – `Long Range (30 minutes, ~175 logs)`  
+- **Incident review / historical tracing** – `Long Range (30 minutes)`  
   - Best for post-incident analysis or verifying whether a major anomaly just occurred. Not recommended for continuous alerting unless paired with sliding windows or time-decay weighting.
 
-Use a “5-minute real-time + 15-minute secondary confirmation” dual-window strategy, and trigger the 30-minute full-window analysis only when deeper historical insight or intermittent-fault diagnosis is required.
+In summary, we can use a 5-minute window for real-time failure detection, and sometimes we also can consider is to adding a 15-minute window for secondary confirmation. When we need a deeper historical insight or intermittent-fault diagnosis, a 30-minute full-window analysis will be required.
